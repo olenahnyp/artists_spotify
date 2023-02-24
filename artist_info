@@ -83,7 +83,6 @@ def get_track_country_list(token, artist_name):
             continue
         if ',' in country.name:
             country_name = country.name.split(',')[0]
-
         else:
             country_name = country.name
         new_country_list.append(country_name)
