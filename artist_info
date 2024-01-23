@@ -6,8 +6,8 @@ import base64
 import pycountry
 from requests import post, get
 
-CLIENT_ID='af650555f3444a9ba1c3af5ae28fa6a3'
-CLIENT_SECRET='e654272fdcbf4b51b777b62b48805d32'
+CLIENT_ID='your_client_id'
+CLIENT_SECRET='your_client_secret'
 
 def get_token():
     """
